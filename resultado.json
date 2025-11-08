@@ -1,0 +1,435 @@
+{
+    "results": [
+        {
+            "fsq_place_id": "4e63447ad22d509a39fb36a0",
+            "latitude": -3.1442500193596814,
+            "longitude": -58.44822818100891,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d16a941735",
+                    "name": "Bakery",
+                    "short_name": "Bakery",
+                    "plural_name": "Bakeries",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2011-09-04",
+            "date_refreshed": "2024-06-24",
+            "distance": 653,
+            "extended_location": {},
+            "link": "/places/4e63447ad22d509a39fb36a0",
+            "location": {
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Amazonas"
+            },
+            "name": "Padaria Tutti Pane",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4e63447ad22d509a39fb36a0",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            }
+        },
+        {
+            "fsq_place_id": "4feb7d2fe4b0a19839bc58fe",
+            "latitude": -3.1475633932697957,
+            "longitude": -58.44710210961603,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d126951735",
+                    "name": "Video Store",
+                    "short_name": "Video Store",
+                    "plural_name": "Video Stores",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/video_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2012-06-27",
+            "date_refreshed": "2021-03-27",
+            "distance": 287,
+            "extended_location": {},
+            "link": "/places/4feb7d2fe4b0a19839bc58fe",
+            "location": {
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Amazonas"
+            },
+            "name": "Planet Hit's Locadora",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4feb7d2fe4b0a19839bc58fe",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            }
+        },
+        {
+            "fsq_place_id": "4ec57d21be7bd3e185435d62",
+            "latitude": -3.148797198054339,
+            "longitude": -58.446113011685426,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d118951735",
+                    "name": "Grocery Store",
+                    "short_name": "Grocery Store",
+                    "plural_name": "Grocery Stores",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2011-11-17",
+            "date_refreshed": "2024-09-13",
+            "distance": 219,
+            "extended_location": {},
+            "link": "/places/4ec57d21be7bd3e185435d62",
+            "location": {
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Itacoatiara, AM"
+            },
+            "name": "Supermercado Ouro Verde",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4ec57d21be7bd3e185435d62",
+            "related_places": {
+                "children": [
+                    {
+                        "fsq_place_id": "5b7ea6a91f744000392fbdfe",
+                        "categories": [
+                            {
+                                "fsq_category_id": "4bf58dd8d48988d110951735",
+                                "name": "Hair Salon",
+                                "short_name": "Hair Salon",
+                                "plural_name": "Hair Salons",
+                                "icon": {
+                                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/salon_barber_",
+                                    "suffix": ".png"
+                                }
+                            }
+                        ],
+                        "name": "Bio Extratus - Amazonas"
+                    },
+                    {
+                        "fsq_place_id": "594182d3f62f2b4dd6f64822",
+                        "categories": [
+                            {
+                                "fsq_category_id": "4d4b7105d754a06374d81259",
+                                "name": "Restaurant",
+                                "short_name": "Restaurant",
+                                "plural_name": "Restaurants",
+                                "icon": {
+                                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                                    "suffix": ".png"
+                                }
+                            }
+                        ],
+                        "name": "Dom Marujo"
+                    }
+                ]
+            },
+            "social_media": {
+                "twitter": ""
+            },
+            "tel": "(92) 3521-1910"
+        },
+        {
+            "fsq_place_id": "4eefda255c5ca1ec3039084f",
+            "latitude": -3.1479447500450366,
+            "longitude": -58.44747540015267,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d143941735",
+                    "name": "Breakfast Spot",
+                    "short_name": "Breakfast",
+                    "plural_name": "Breakfast Spots",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/breakfast_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2011-12-20",
+            "date_refreshed": "2024-09-13",
+            "distance": 239,
+            "extended_location": {},
+            "link": "/places/4eefda255c5ca1ec3039084f",
+            "location": {
+                "address": "Rua Quintino Bocaiúva",
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Rua Quintino Bocaiúva, Itacoatiara, AM"
+            },
+            "name": "Café da Fátima",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4eefda255c5ca1ec3039084f",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            }
+        },
+        {
+            "fsq_place_id": "4e60f1208877954de7886d69",
+            "latitude": -3.1433035274175793,
+            "longitude": -58.44661699252352,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d16a941735",
+                    "name": "Bakery",
+                    "short_name": "Bakery",
+                    "plural_name": "Bakeries",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2011-09-02",
+            "date_refreshed": "2025-07-24",
+            "distance": 763,
+            "extended_location": {},
+            "link": "/places/4e60f1208877954de7886d69",
+            "location": {
+                "address": "avenida parque",
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "avenida parque, Itacoatiara, AM"
+            },
+            "name": "PAP - Panificadora Avenida Parque",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4e60f1208877954de7886d69",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            },
+            "tel": "(92) 3521-2706"
+        },
+        {
+            "fsq_place_id": "5043f3e5e4b09fb67bd1850b",
+            "latitude": -3.148134670556214,
+            "longitude": -58.44515168794763,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d164941735",
+                    "name": "Plaza",
+                    "short_name": "Plaza",
+                    "plural_name": "Plazas",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2012-09-03",
+            "date_refreshed": "2024-09-13",
+            "distance": 348,
+            "extended_location": {},
+            "link": "/places/5043f3e5e4b09fb67bd1850b",
+            "location": {
+                "address": "Rua Visconde do Rio Branco, Centro",
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Rua Visconde do Rio Branco, Centro (Rio Amazonas), Itacoatiara, AM"
+            },
+            "name": "Orla de Itacoatiara",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/5043f3e5e4b09fb67bd1850b",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            }
+        },
+        {
+            "fsq_place_id": "4fd93654e4b0d5879e0f0574",
+            "latitude": -3.147094365772593,
+            "longitude": -58.44433991846308,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d116941735",
+                    "name": "Bar",
+                    "short_name": "Bar",
+                    "plural_name": "Bars",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2012-06-14",
+            "date_refreshed": "2021-10-11",
+            "distance": 492,
+            "extended_location": {},
+            "link": "/places/4fd93654e4b0d5879e0f0574",
+            "location": {
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Itacoatiara, AM"
+            },
+            "name": "Mangá Rock Bar",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4fd93654e4b0d5879e0f0574",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            }
+        },
+        {
+            "fsq_place_id": "4ff62e7de4b021ccc7337689",
+            "latitude": -3.142907,
+            "longitude": -58.447556,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d17f941735",
+                    "name": "Movie Theater",
+                    "short_name": "Movie Theater",
+                    "plural_name": "Movie Theaters",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2012-07-06",
+            "date_refreshed": "2019-06-20",
+            "distance": 799,
+            "extended_location": {},
+            "link": "/places/4ff62e7de4b021ccc7337689",
+            "location": {
+                "address": "Rua Rui Barbosa",
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Rua Rui Barbosa, Itacoatiara, AM"
+            },
+            "name": "Cine Theatro Dib Barbosa",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4ff62e7de4b021ccc7337689",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            }
+        },
+        {
+            "fsq_place_id": "4c4786bd19fde21e62a40876",
+            "latitude": -3.143281571341506,
+            "longitude": -58.44442633168865,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1cc941735",
+                    "name": "Steakhouse",
+                    "short_name": "Steakhouse",
+                    "plural_name": "Steakhouses",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2010-07-21",
+            "date_refreshed": "2024-06-19",
+            "distance": 835,
+            "extended_location": {},
+            "link": "/places/4c4786bd19fde21e62a40876",
+            "location": {
+                "address": "",
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "",
+                "country": "BR",
+                "formatted_address": "Amazonas"
+            },
+            "name": "Churrascaria Ilha Bonita",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4c4786bd19fde21e62a40876",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            }
+        },
+        {
+            "fsq_place_id": "4c48c5ce740676b03f468376",
+            "latitude": -3.1429413774529995,
+            "longitude": -58.446236296704285,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1f6941735",
+                    "name": "Department Store",
+                    "short_name": "Department Store",
+                    "plural_name": "Department Stores",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/departmentstore_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [
+                {
+                    "fsq_chain_id": "5568f475a7c8a9cf8ec48fd4",
+                    "name": "Lojas Bemol"
+                }
+            ],
+            "date_created": "2010-07-22",
+            "date_refreshed": "2024-06-17",
+            "distance": 809,
+            "extended_location": {},
+            "link": "/places/4c48c5ce740676b03f468376",
+            "location": {
+                "address": "Avenida Parque, 656, Centro",
+                "locality": "Itacoatiara",
+                "region": "AM",
+                "postcode": "69100-000",
+                "country": "BR",
+                "formatted_address": "Avenida Parque, 656, Centro, Itacoatiara, AM, 69100-000"
+            },
+            "name": "Bemol Itacoatiara",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4c48c5ce740676b03f468376",
+            "related_places": {
+                "children": [
+                    {
+                        "fsq_place_id": "5cf2a1e9535d6f002c9ab1c1",
+                        "categories": [
+                            {
+                                "fsq_category_id": "5745c2e4498e11e7bccabdbd",
+                                "name": "Drugstore",
+                                "short_name": "Drugstore",
+                                "plural_name": "Drugstores",
+                                "icon": {
+                                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/pharmacy_",
+                                    "suffix": ".png"
+                                }
+                            }
+                        ],
+                        "name": "Bemol Farma"
+                    }
+                ]
+            },
+            "social_media": {
+                "twitter": "bemolonline"
+            },
+            "tel": "(92) 3521-1909",
+            "website": "http://www.bemol.com.br/"
+        }
+    ],
+    "context": {
+        "geo_bounds": {
+            "circle": {
+                "center": {
+                    "latitude": -3.1501,
+                    "longitude": -58.4476
+                },
+                "radius": 10000
+            }
+        }
+    }
+}
