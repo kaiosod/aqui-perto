@@ -51,6 +51,26 @@ const Index = () => {
     [location]
   );
 
+  const handleCustomSearch = useCallback(
+    async (query: string) => {
+      if (!location) return;
+
+      setSelectedCategory(null);
+      setSearchLoading(true);
+      setEstablishments([]);
+
+      try {
+        const results = await searchNearbyEstablishments(location, 'custom', query);
+        setEstablishments(results);
+      } catch (error) {
+        console.error('Erro na busca:', error);
+      } finally {
+        setSearchLoading(false);
+      }
+    },
+    [location]
+  );
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -59,7 +79,7 @@ const Index = () => {
           <div className="flex items-center justify-center gap-2">
             <MapPin className="h-5 w-5 text-primary" />
             <h1 className="text-lg font-semibold text-foreground">
-              Perto de Mim
+              Aqui Perto
             </h1>
           </div>
         </div>
@@ -84,19 +104,19 @@ const Index = () => {
             />
           </section>
 
-          {/* Category Selection */}
           {location && (
             <section className="w-full animate-fade-in">
               <CategorySelector
                 selectedCategory={selectedCategory}
                 onSelectCategory={handleSelectCategory}
+                onCustomSearch={handleCustomSearch}
                 disabled={searchLoading}
               />
             </section>
           )}
 
           {/* Results */}
-          {selectedCategory && (
+          {(selectedCategory || establishments.length > 0 || searchLoading) && (
             <section className="w-full animate-fade-in">
               <EstablishmentList
                 establishments={establishments}

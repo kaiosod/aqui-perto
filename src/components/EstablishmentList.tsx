@@ -23,6 +23,7 @@ const getCategoryColor = (category: CategoryType): string => {
 };
 
 const getCategoryLabel = (categoryId: CategoryType): string => {
+  if (categoryId === 'custom') return 'Outros';
   return categories.find((c) => c.id === categoryId)?.label || categoryId;
 };
 
@@ -32,7 +33,7 @@ export const EstablishmentList = ({
 }: EstablishmentListProps) => {
   if (isLoading) {
     return (
-      <div className="w-full max-w-md space-y-3">
+      <div className="w-full max-w-md mx-auto space-y-3">
         {[...Array(3)].map((_, i) => (
           <div
             key={i}
@@ -57,7 +58,7 @@ export const EstablishmentList = ({
   }
 
   return (
-    <div className="w-full max-w-md space-y-3">
+    <div className="w-full max-w-md mx-auto space-y-3">
       <p className="text-sm text-muted-foreground text-center mb-4">
         {establishments.length} resultados encontrados
       </p>
@@ -72,6 +73,11 @@ export const EstablishmentList = ({
               <h3 className="font-medium text-foreground truncate">
                 {establishment.name}
               </h3>
+              {establishment.address && (
+                <p className="text-xs text-muted-foreground mt-1 truncate">
+                  {establishment.address}
+                </p>
+              )}
               <div className="flex items-center gap-2 mt-2">
                 <span
                   className={cn(

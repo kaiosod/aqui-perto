@@ -1,4 +1,4 @@
-export type CategoryType = 'restaurant' | 'pharmacy' | 'supermarket';
+export type CategoryType = 'restaurant' | 'pharmacy' | 'supermarket' | 'custom';
 
 export interface Category {
   id: CategoryType;
@@ -14,6 +14,7 @@ export interface Establishment {
   distance: number; // in meters
   lat: number;
   lon: number;
+  address?: string;
 }
 
 export interface Location {
