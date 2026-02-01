@@ -1,8 +1,10 @@
+import { useState } from 'react';
 import { Establishment, CategoryType } from '@/types/establishment';
 import { formatDistance } from '@/lib/geolocation';
 import { categories } from '@/lib/categories';
 import { cn } from '@/lib/utils';
-import { MapPin } from 'lucide-react';
+import { MapPin, ChevronRight } from 'lucide-react';
+import { EstablishmentDetailsModal } from './EstablishmentDetailsModal';
 
 interface EstablishmentListProps {
   establishments: Establishment[];
@@ -31,6 +33,19 @@ export const EstablishmentList = ({
   establishments,
   isLoading,
 }: EstablishmentListProps) => {
+  const [selectedEstablishment, setSelectedEstablishment] = useState<Establishment | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleEstablishmentClick = (establishment: Establishment) => {
+    setSelectedEstablishment(establishment);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedEstablishment(null);
+  };
+
   if (isLoading) {
     return (
       <div className="w-full max-w-md mx-auto space-y-3">
@@ -58,45 +73,55 @@ export const EstablishmentList = ({
   }
 
   return (
-    <div className="w-full max-w-md mx-auto space-y-3">
-      <p className="text-sm text-muted-foreground text-center mb-4">
-        {establishments.length} resultados encontrados
-      </p>
-      {establishments.map((establishment, index) => (
-        <div
-          key={establishment.id}
-          className="bg-card rounded-xl p-4 shadow-card hover:shadow-elevated transition-all duration-200 animate-slide-up"
-          style={{ animationDelay: `${index * 50}ms` }}
-        >
-          <div className="flex items-start justify-between gap-3">
-            <div className="flex-1 min-w-0">
-              <h3 className="font-medium text-foreground truncate">
-                {establishment.name}
-              </h3>
-              {establishment.address && (
-                <p className="text-xs text-muted-foreground mt-1 truncate">
-                  {establishment.address}
+    <>
+      <div className="w-full max-w-md mx-auto space-y-3">
+        <p className="text-sm text-muted-foreground text-center mb-4">
+          {establishments.length} resultados encontrados
+        </p>
+        {establishments.map((establishment, index) => (
+          <button
+            key={establishment.id}
+            onClick={() => handleEstablishmentClick(establishment)}
+            className="w-full text-left bg-card rounded-xl p-4 shadow-card hover:shadow-elevated transition-all duration-200 animate-slide-up cursor-pointer group"
+            style={{ animationDelay: `${index * 50}ms` }}
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex-1 min-w-0">
+                <h3 className="font-medium text-foreground truncate group-hover:text-primary transition-colors">
+                  {establishment.name}
+                </h3>
+                {establishment.address && (
+                  <p className="text-xs text-muted-foreground mt-1 truncate">
+                    {establishment.address}
+                  </p>
+                )}
+                <div className="flex items-center gap-2 mt-2">
+                  <span
+                    className={cn(
+                      'text-xs font-medium px-2 py-1 rounded-full',
+                      getCategoryColor(establishment.category)
+                    )}
+                  >
+                    {getCategoryLabel(establishment.category)}
+                  </span>
+                </div>
+              </div>
+              <div className="text-right flex-shrink-0 flex items-center gap-2">
+                <p className="text-sm font-semibold text-primary">
+                  {formatDistance(establishment.distance)}
                 </p>
-              )}
-              <div className="flex items-center gap-2 mt-2">
-                <span
-                  className={cn(
-                    'text-xs font-medium px-2 py-1 rounded-full',
-                    getCategoryColor(establishment.category)
-                  )}
-                >
-                  {getCategoryLabel(establishment.category)}
-                </span>
+                <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
               </div>
             </div>
-            <div className="text-right flex-shrink-0">
-              <p className="text-sm font-semibold text-primary">
-                {formatDistance(establishment.distance)}
-              </p>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
+          </button>
+        ))}
+      </div>
+
+      <EstablishmentDetailsModal
+        establishment={selectedEstablishment}
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
+    </>
   );
 };
