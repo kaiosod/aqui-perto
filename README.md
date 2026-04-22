@@ -57,6 +57,8 @@ npm install
 
 # Start development server
 npm run dev
+npm run build 
+npm run preview -- --host
 
 # The application will be available at:
 
